@@ -51,7 +51,7 @@ Next, experimentation with different models showed that the 3rd degree polynomia
 
 ![Linear](images/linear.png)
 
-![Polynomial](images/polynomial.png)
+![Polynomial](images/poly.png)
 
 From the above plots, we can say that the 3rd degree polynomial fits better than the linear regression. For the polynomial model: (i) Residuals vs Fitted shows they are randomly scattered around zero, (ii) Q-Q Plot shows that they are normal, (iii) Scale-Location shows that the spread is relatively constant, (iv) Most points have low leverage and residuals near zero, suggesting that the polynomial model is more robust to outliers than the linear model. For the linear model, (i) Residuals vs Fitted shows a parabolic pattern indicating that the linear model fails to capture the non-linear relationship, (ii) Q-Q Plot shows that it violates the normality assumption, (iii) The Scale-Location indicates heteroscedasticity, (iv) Some points exhibit high leverage and large residuals, indicating that the linear model is sensitive to outliers.
 
