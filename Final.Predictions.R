@@ -20,16 +20,10 @@ par(mfrow = c(2, 2)); plot(poly_mod)
 
 predictions <- predict(poly_mod, newdata = Data.test)
 
-# Details
-last_name <- "Fernandes"
-mse_guess <- 10
-
 # Create a character vector for output
 output_lines <- c(
-  last_name,
-  as.numeric(mse_guess),
   as.numeric(predictions)
 )
 
 # Write to CSV
-writeLines(output_lines, "Fernandes.Predictions.csv")
+writeLines(output_lines, "Final.Predictions.csv")
